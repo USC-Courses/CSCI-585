@@ -1,0 +1,10 @@
+Assumptions:
+1. There might have several instances for the same class or project.
+2. Every student could choose one of the instance of the same class or project.
+3. Textbooks may not exist in the library, teachers can use textbooks that are not in the library.
+4. The microcontroller used in a project is contained in the box of the table.
+
+I use many types to distinguish different entities in the same table.
+Such as TARGET_ID is a type to distinguish the target of grading.
+Whether an instance is a class or a project depends on the value of INSTANCE_TYPE.
+...
